@@ -225,20 +225,7 @@ Hospital-Management-Patient-Analytics/
 ├── Dashboard_Screenshot.png
 └── README.md 
 
-## How to Talk About This in an Interview
 
-*"I designed a normalized 8-table hospital database in MySQL, where a bill
-can be linked to either a consultation or a room stay but never both —
-which meant several queries needed to trace the right doctor or patient
-through whichever link was filled in, using LEFT JOIN and COALESCE. I
-wrote 20+ business queries organized into six sections — KPIs, doctor and
-department performance, patient analysis, monthly trends, revenue
-breakdowns, and two advanced queries using a window function and a
-correlated subquery. I then connected Excel directly to MySQL over ODBC
-to build a live, refreshable dashboard with KPI cards and six charts,
-rather than a static copy-pasted report. Along the way, I also caught a
-real data-integrity bug — some dates were occurring before a patient's
-registration date — and fixed the underlying data logic, verifying it
-with cross-table validation queries."*
+
 
 
